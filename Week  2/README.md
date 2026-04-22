@@ -1,6 +1,6 @@
 # 🟡 Week 2 — Attack Simulation & Data Capture
 
-## 🎯 Objective
+## Objective
 
 To simulate real-world cyberattacks against the deployed honeypot and verify that all attacker activities are accurately captured and logged within a controlled environment.
 
@@ -59,7 +59,7 @@ These commands represent typical attacker behavior post-compromise.
 
 ---
 
-## ✅ Result
+##  Result
 
 * Successfully simulated both manual and automated (brute-force) attacks
 * Captured complete attacker behavior without detection
@@ -67,14 +67,14 @@ These commands represent typical attacker behavior post-compromise.
 
 ---
 
-## 📊 Evidence
+##  Evidence
 
 * `logs/cowrie.log` — Full attacker interaction logs
 * `logs/cowrie.json` — Structured log data for further analysis
 
 ---
 
-## 🧰 Tools & Technologies Used
+##  Tools & Technologies Used
 
 * Hydra (Brute-force attack simulation)
 * rockyou.txt (Password wordlist)
