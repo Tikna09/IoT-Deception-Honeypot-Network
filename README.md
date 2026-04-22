@@ -1,6 +1,6 @@
-# 🔐 IoT Deception Honeypot Network for Healthcare
+# IoT Deception Honeypot Network for Healthcare
 
-## 📖 Project Overview
+##  Project Overview
 This project implements a **deception-based cybersecurity system** designed to simulate a vulnerable healthcare IoT device and capture attacker behavior in real-time.
 
 With the rapid growth of IoT devices in healthcare, systems are increasingly exposed to cyber threats such as brute-force attacks, unauthorized access, and malware deployment.  
@@ -8,7 +8,7 @@ This project demonstrates how a **honeypot (Cowrie)** can be used to detect, log
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Simulate a real-world healthcare IoT device
 - Capture attacker activity (login attempts, commands, sessions)
 - Extract Indicators of Compromise (IoCs)
@@ -17,7 +17,7 @@ This project demonstrates how a **honeypot (Cowrie)** can be used to detect, log
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 - **Ubuntu Server** → Honeypot (Cowrie)
 - **Kali Linux** → Attacker machine
@@ -26,7 +26,7 @@ This project demonstrates how a **honeypot (Cowrie)** can be used to detect, log
 
 ---
 
-## ⚙️ Technologies & Tools Used
+##  Technologies & Tools Used
 
 - Cowrie SSH Honeypot  
 - Python 3  
@@ -40,7 +40,7 @@ This project demonstrates how a **honeypot (Cowrie)** can be used to detect, log
 
 ---
 
-## 🗂️ Project Workflow
+##  Project Workflow
 
 ### 🟢 Week 1 — Environment Setup & Simulation
 - Created two virtual machines (Ubuntu & Kali)
@@ -83,7 +83,7 @@ This project demonstrates how a **honeypot (Cowrie)** can be used to detect, log
 
 ---
 
-## 📊 Key Features
+##  Key Features
 
 ✔ Real-time attacker interaction capture  
 ✔ Brute-force attack simulation  
@@ -94,7 +94,7 @@ This project demonstrates how a **honeypot (Cowrie)** can be used to detect, log
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### 🔹 Hydra Brute Force Attack
 ![Hydra Attack](screenshots/hydra_attack.png)
@@ -110,7 +110,7 @@ This project demonstrates how a **honeypot (Cowrie)** can be used to detect, log
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### 1. Start Honeypot
 ```bash
